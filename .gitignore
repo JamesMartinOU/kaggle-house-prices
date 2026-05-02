@@ -5,7 +5,34 @@ __pycache__/
 
 # C extensions
 *.so
+# Data files
+data/
+*.csv
+*.xlsx
 
+# Model artifacts
+*.pkl
+*.joblib
+*.model
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+venv/
+
+# Secrets
+*.token
+kaggle.json
+.databricks/
+
+# OS
+.DS_Store
+Thumbs.db
 # Distribution / packaging
 .Python
 build/
