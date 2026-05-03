@@ -127,7 +127,7 @@ This demonstrates how a competition-style notebook can be converted into a more 
 ## Repository Structure
 
 ```text
-kaggle-house-prices-top-3/
+kaggle-house-prices/
 │
 ├── README.md
 ├── requirements.txt
