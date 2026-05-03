@@ -133,22 +133,24 @@ kaggle-house-prices/
 ├── requirements.txt
 ├── .gitignore
 │
-├── notebooks/
-│   ├── 01_original_kaggle_solution.ipynb
-│   └── 02_databricks_mlflow_version.ipynb
-│
 ├── databricks/
+│   ├── .gitkeep
 │   └── House_Prices_Databricks_MLflow_Version.py
 │
+├── notebooks/
+│   ├── .gitkeep
+│   └── House_Prices_Databricks_MLflow_Version.ipynb
+│
 ├── images/
-│   ├── leaderboard_score.png
+│   ├── .gitkeep
 │   ├── databricks_notebook.png
-│   ├── mlflow_experiment.png
-│   └── feature_importance.png
+│   ├── leaderboard_score.png
+│   ├── mlflow_artifacts.png
+│   └── mlflow_experiment.png
 │
 └── outputs/
     └── sample_submission_preview.csv
-```
+
 
 ## Models
 
@@ -197,17 +199,21 @@ Final submission: submission_blend_databricks_mlflow.csv
 
 ## Screenshots
 
-### Kaggle Result
+### Kaggle Leaderboard Result
 
 ![Leaderboard Score](images/leaderboard_score.png)
+
+### Databricks Notebook
+
+![Databricks Notebook](images/databricks_notebook.png)
 
 ### MLflow Experiment Tracking
 
 ![MLflow Experiment](images/mlflow_experiment.png)
 
-### Databricks Notebook
+### MLflow Artifacts
 
-![Databricks Notebook](images/databricks_notebook.png)
+![MLflow Artifacts](images/mlflow_artifacts.png)
 
 ## How to Run
 
